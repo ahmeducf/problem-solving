@@ -24,7 +24,7 @@ set<char> st;
 
 bool valid (int i, int j) {return i >= 0 && i < n && j >= 0 && j < m;}
 
-void dfs (int i, int j){
+void solve (int i, int j){
     if (!valid(i, j) || visited[i][j] || G[i][j] == '.')
         return;
 
@@ -34,10 +34,10 @@ void dfs (int i, int j){
         return;
     }
 
-    dfs(i, j+1);
-    dfs(i, j-1);
-    dfs(i-1, j);
-    dfs(i+1, j);
+    solve(i, j+1);
+    solve(i, j-1);
+    solve(i-1, j);
+    solve(i+1, j);
 }
 
 int main () {
@@ -56,7 +56,7 @@ int main () {
     for (int i = 0; i < n; ++i) {
         for (int j = 0; j < m; ++j) {
             if (G[i][j] == c && !visited[i][j]){
-                dfs(i, j);
+                solve(i, j);
             }
         }
     }
