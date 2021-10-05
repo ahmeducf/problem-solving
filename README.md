@@ -13,5 +13,5 @@ This repo is for my solutions of **Algorithms** and **Competitive Programming** 
 
 ## Table of Contents
 
-* [Graph](/Topics/Graph)
+### [Graph](/Topics/Graph)
   * [DFS](/Topics/Graph/DFS)
