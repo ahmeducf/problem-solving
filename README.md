@@ -15,3 +15,5 @@ This repo is for my solutions of **Algorithms** and **Competitive Programming** 
 
 ### [Graph](/Topics/Graph)
   * [DFS](/Topics/Graph/DFS)
+  * [BFS](/Topics/Graph/BFS)
+  * [bipartite Graph](/Topics/Graph/biPartite%20Graph)
