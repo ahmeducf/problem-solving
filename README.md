@@ -9,5 +9,5 @@ This repo is for my solutions of **Algorithms** and **Competitive Programming** 
 
 ## Languages
 
-|<p align="center"><img src="https://raw.githubusercontent.com/isocpp/logos/master/cpp_logo.png" width="100"></p>
+|<p align="left"><img src="https://raw.githubusercontent.com/isocpp/logos/master/cpp_logo.png" width="100"></p>
 |
