@@ -16,7 +16,7 @@ This repo is for my solutions of **Algorithms** and **Competitive Programming** 
 ### [Graph](/Topics/Graph)
   * [DFS](/Topics/Graph/DFS)
   * [BFS](/Topics/Graph/BFS)
-  * [bipartite Graph](/Topics/Graph/biPartite%20Graph)
+  * [bipartite Graph](/Topics/Graph/Bipartite%20Graph)
 ### [Two Pointers](/Topics/Two%20Pointers)
 ### [Range Sum Query](/Topics/Range%20Sum%20Query)
 ### [Greedy](/Topics/Greedy)
