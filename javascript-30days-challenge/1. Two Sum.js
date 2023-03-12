@@ -5,20 +5,19 @@
  * @param {number} target
  * @return {number[]}
  */
-var twoSum = function(nums, target) {
-    let numsMap = {};
-    for (let index = 0; index < nums.length; index++) {
-      let num = nums[index];
-      let complement = target - num;
+const twoSum = function twoSum(nums, target) {
+  const numsMap = {};
+  for (let index = 0; index < nums.length; index++) {
+    const num = nums[index];
+    const complement = target - num;
 
-      if (numsMap[complement] !== undefined) {
-        return [numsMap[complement], index];
-      } else {
-        numsMap[num] = index;
-      }
+    if (numsMap[complement] !== undefined) {
+      return [numsMap[complement], index];
     }
+    numsMap[num] = index;
+  }
 
-    return [];
+  return [];
 };
 
-console.log(twoSum([2,7,11,15], 9));
+console.log(twoSum([2, 7, 11, 15], 9));
