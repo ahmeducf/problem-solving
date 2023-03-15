@@ -9,7 +9,10 @@ This repo is for my solutions of **Algorithms** and **Competitive Programming** 
 
 ## Languages
 
-<p align="left"><img src="https://raw.githubusercontent.com/isocpp/logos/master/cpp_logo.png" width="100"></p>
+<p float="left">
+  <img src="https://raw.githubusercontent.com/isocpp/logos/master/cpp_logo.png" width="100" />
+  <img src="https://cdn.cdnlogo.com/logos/j/69/javascript.svg" width="100" /> 
+</p>
 
 ## Table of Contents
 
